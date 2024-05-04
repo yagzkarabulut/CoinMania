@@ -1,0 +1,60 @@
+body {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+.invalid-feedback {
+  display: block;
+  visibility: hidden;
+}
+
+.feedback {
+  visibility: hidden;
+  color: red;
+}
+div .is-invalid + .feedback {
+  visibility: visible;
+}
+.up {
+  color: rgb(61, 197, 61) !important;
+}
+.down {
+  color: red !important;
+}
+.coin-card {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.coin-card:hover {
+  box-shadow: 0 0 30px rgb(185, 185, 184);
+  transform: translate(10, -10px);
+}
+/* daha falz buttonu */
+.more-btn {
+  padding: 10px 20px;
+  border-radius: 50px !important;
+  cursor: pointer;
+  border: 1px solid gray;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.more-btn:hover {
+  letter-spacing: 3px;
+  background-color: rgb(238, 186, 41);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(238, 186, 41) 0px 7px 29px 0px;
+  border: 0;
+}
+
+.more-btn:active {
+  letter-spacing: 3px;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(238, 186, 41) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
