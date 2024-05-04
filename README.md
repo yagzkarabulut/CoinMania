@@ -1,4 +1,4 @@
-<h1>Books Website</h1>
+<h1>CoinMania Website</h1>
 
 This project was created with React.
 
